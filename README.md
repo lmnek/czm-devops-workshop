@@ -11,7 +11,7 @@ Veškerý kód nahrajte na k tomu vytvořené veřejné git repository.
 
 ## Docker commands
 
-This was my solution when connecting Postgres DB container to Spring-boot app container with
+This was my solution when connecting Postgres DB container to Spring boot app container
 
 
 1. `docker run -itd -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -p 5432:5432 --name ukol-db postgres` (DB container)
